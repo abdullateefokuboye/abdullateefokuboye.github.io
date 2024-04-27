@@ -181,18 +181,37 @@
                  </div>
             </section>
 
-            <!-- CONTACT -->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>
-                </div>
-            </section>
+           <!--===== CONTACT =====-->
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact__container bd-grid">
+        <div class="contact__info">
+            <h3 class="contact__subtitle">Email Me</h3>
+            <p><a href="mailto:a_okuboye@yahoo.com" class="contact__link">a_okuboye@yahoo.com</a></p>
+
+            <h3 class="contact__subtitle">Follow Me on LinkedIn</h3>
+            <p><a href="https://www.linkedin.com/in/abdullateef-okuboye-3a5a2488/" class="contact__link">LinkedIn Profile</a></p>
+
+            <h3 class="contact__subtitle">GitHub Repository</h3>
+            <p><a href="https://github.com/abdullateefokuboye" class="contact__link">GitHub Profile</a></p>
+
+            <h3 class="contact__subtitle">Connect on Social Media</h3>
+            <div class="contact__social">
+                <a href="https://www.linkedin.com/in/abdullateef-okuboye-3a5a2488/" class="contact__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/abdullateefokuboye/" class="contact__social-icon"><i class='bx bxl-github' ></i></a>
+                <!-- Add more social links if necessary -->
+            </div>
+        </div>
+
+        <form action="your-server-side-code" method="POST" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" required>
+            <input type="email" placeholder="Email" class="contact__input" required>
+            <textarea placeholder="Your Message" class="contact__input" required rows="4"></textarea>
+            <input type="submit" value="Send" class="contact__button button">
+        </form>
+    </div>
+</section>
+
         </main>
 
         <footer class="footer">
