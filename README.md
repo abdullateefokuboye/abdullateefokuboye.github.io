@@ -23,7 +23,6 @@ Oct 2014 - Sep 2015
 
 ## Projects
 
-
 **Simple HTML Game**  
 An interactive game built with HTML and JavaScript demonstrating basic coding skills.  
 
